@@ -1,0 +1,44 @@
+.content {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    min-height: 300px;
+}
+.text {
+    width: 565px;
+    padding-top: 30px;
+    padding-left: 10px;
+}
+.text h1 {
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.text p {
+    line-height: 24px;
+}
+.buttons a {
+    display: block;
+    padding: 4px 16px;
+    color: #ffffff;
+    font-size: 16px;
+    border-radius: 5px;
+    text-decoration: none;
+    text-align: center;
+    box-shadow: 0 1px 3px rgb(0 0 0 / 50%);
+    text-shadow: 0 -1px 1px rgb(0 0 0 / 25%);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.25);
+}
+.buttons a.abrir {
+    background-color: #00AEEF;
+    margin-bottom: 15px;
+}
+.buttons a.abrir:hover {
+    background-color: #0299d2;
+}
+.buttons a.verificar {
+    background-color: #91bd09;
+}
+.buttons a.verificar:hover {
+    background-color: #749a02;
+}

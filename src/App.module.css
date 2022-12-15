@@ -1,0 +1,16 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    list-style: none;
+    font-family: "Helvetica Neue", sans-serif;
+    font-size: 14px;
+}
+
+.container {
+    width: 840px;
+    background-color: #ffffff;
+    margin: 0 auto;
+    box-shadow: 0 0 6px rgb(0 0 0 / 50%);
+}
